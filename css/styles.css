@@ -685,3 +685,29 @@ width: calc((100% - 120px) / 6);
 .social-media-link-footer:focus {
    background-color: var(--green-color);
 }
+
+.modal-window {
+   position: fixed;
+   inset: 0 0 auto;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 1;
+   pointer-events: all;
+}
+
+.modal-window.is-hidden {
+   opacity: 0;
+   pointer-events: none;
+}
+
+.modal-body {
+width: 408px;
+height: 584px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--DAIRY, #FCFCFC);
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+
+}
