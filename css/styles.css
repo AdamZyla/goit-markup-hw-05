@@ -710,13 +710,13 @@ width: calc((100% - 120px) / 6);
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%) scale(1);
-width: 408px;
-height: 584px;
-flex-shrink: 0;
-border-radius: 4px;
-background: var(--DAIRY, #FCFCFC);
-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-transition:cubic-bezier(0.4, 0, 0.2, 1);
+   width: 408px;
+   height: 584px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   background: var(--DAIRY, #FCFCFC);
+   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+   transition:cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -727,6 +727,7 @@ transition:cubic-bezier(0.4, 0, 0.2, 1);
    width: 24px;
    height: 24px;
    border-radius: 50%;
+   padding: 0;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -736,5 +737,13 @@ transition:cubic-bezier(0.4, 0, 0.2, 1);
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
    border 250ms cubic-bezier(0.4, 0, 0.2, 1)  ;
 
+}
+
+
+.modal-X-button :hover,
+.modal-X-button :focus {
+    background-color: var(--ocean-color);
+    border: none;
+    fill: var(--white-color);
 }
 
