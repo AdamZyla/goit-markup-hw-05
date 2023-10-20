@@ -740,8 +740,8 @@ width: calc((100% - 120px) / 6);
 }
 
 
-.modal-X-button :hover,
-.modal-X-button :focus {
+.modal-X-button:hover,
+.modal-X-button:focus {
     background-color: var(--ocean-color);
     border: none;
     fill: var(--white-color);
