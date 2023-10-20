@@ -215,25 +215,18 @@ cursor: pointer;
 }
 
 .hero {
-  
 background-color: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
 margin: 0 auto;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
 max-width: 1440px;
-
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
 
-
-.hero-one {/*
-padding: 120px 0;*/
-}
-
-   .section-one {
+.section-one {
 font-family: Roboto;
 font-size: 56px;
 font-style: normal;
@@ -242,11 +235,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white-color);
-/*background-color: #2E2F42;*/
 max-width: 496px;
 margin: 0 auto;
-
-
 }
 
 .section-two {
@@ -258,9 +248,7 @@ line-height: 24px;
 letter-spacing: 0.4px;
 color: var(--navy-blue-color);
 margin-bottom: 8px;
-/*margin-top: 8px;*/
 padding-top: 8px;
-/*padding-bottom: 8px;*/
 }
 
 .section-two-text {
@@ -695,15 +683,16 @@ width: calc((100% - 120px) / 6);
    align-items: center;
    opacity: 1;
    pointer-events: all;
+   background: var(--NAVY-BLUE-modal,
+    rgba(46, 47, 66, 0.40));
+
 }
 
 .is-hidden {
    opacity: 0;
    pointer-events: none;
    visibility: hidden;
-
 }
-
 
 .modal-body {
    position: absolute;
@@ -717,7 +706,6 @@ width: calc((100% - 120px) / 6);
    background: var(--DAIRY, #FCFCFC);
    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
    transition:cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-X-button {
@@ -736,14 +724,13 @@ width: calc((100% - 120px) / 6);
    cursor: pointer;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
    border 250ms cubic-bezier(0.4, 0, 0.2, 1)  ;
-
 }
-
 
 .modal-X-button:hover,
 .modal-X-button:focus {
     background-color: var(--ocean-color);
     border: none;
     fill: var(--white-color);
+    
 }
 
