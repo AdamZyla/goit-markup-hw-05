@@ -780,11 +780,11 @@ width: calc((100% - 120px) / 6);
 
 }
 
-.link-padding:hover, .extra-text {
+.link-padding:hover .extra-text {
    transform: translateY(0%);
 }
 
-.link-padding:focus, .extra-text {
+.link-padding:focus .extra-text {
     transform: translateY(0%);
 
 }
