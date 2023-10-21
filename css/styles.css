@@ -108,7 +108,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    letter-spacing: 0.32px;
    gap: 40px;
 
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -495,6 +498,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
    border-radius: 4px;
    padding: 12px 24px 12px 24px;
    border:  1px solid var(--cornflower-color);
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .button-portfolio-styling:hover,
@@ -742,6 +747,8 @@ width: calc((100% - 120px) / 6);
    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 
 }
 
@@ -771,9 +778,6 @@ width: calc((100% - 120px) / 6);
    transform: skew(-15deg) scale(2) ;  
 }
 
-.svg {
-   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 
 .box {
    position: relative;
