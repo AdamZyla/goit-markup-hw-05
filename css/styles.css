@@ -726,6 +726,11 @@ width: calc((100% - 120px) / 6);
     rgba(46, 47, 66, 0.40));
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   
+
 }
 
 .is-hidden {
@@ -745,11 +750,8 @@ width: calc((100% - 120px) / 6);
    border-radius: 4px;
    background: var(--DAIRY, #FCFCFC);
    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
-
+   
 }
 
 .modal-X-button {
@@ -772,12 +774,16 @@ width: calc((100% - 120px) / 6);
 
 .modal-X-button:hover,
 .modal-X-button:focus {
-   background-color: var(--ocean-color);
-   border: none;
-   fill: var(--white-color);
-   transform: skew(-15deg) scale(2) ;  
+  background-color: var(--ocean-color);
+  border: none;
+  fill: var(--white-color);
+  transform: skew(-15deg) scale(2) ;  
 }
 
+.svg-modal {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+}
 
 .box {
    position: relative;
