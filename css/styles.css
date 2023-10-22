@@ -754,7 +754,7 @@ width: calc((100% - 120px) / 6);
 
 }
 
-.modal-X-button {
+.modal-x-button {
    position: absolute;
    top: 24px;
    right: 24px;
@@ -772,8 +772,8 @@ width: calc((100% - 120px) / 6);
    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-X-button:hover,
-.modal-X-button:focus {
+.modal-x-button:hover,
+.modal-x-button:focus {
   background-color: var(--ocean-color);
   border: none;
   fill: var(--white-color);
